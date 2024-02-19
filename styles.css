@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header-logo {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* inline-size goes together with over-flow-wrap and determines the sizing within */
+.header-text {
+    inline-size: 350px;
+    overflow-wrap: break-word;
+    position: relative;
+    left: 86px;
+}
+
+.header-image p {
+   position: relative;
+   top: -100px;
+    left: 100px;
+}
+
+a {
+    color: blue;
+}
